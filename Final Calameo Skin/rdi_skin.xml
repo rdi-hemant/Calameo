@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<root xmlns="http://skin.calameo.com/2.0" backgroundColor="0x454545">
+	
+	<!-- Media -->
+    <media name="canvasLib" source="rdi_canvas.png"/>
+	
+	<!-- Viewer -->
+	<viewer showonview="book,slide,thumbnails,scroll" left="50" right="50" top="20" bottom="100" depth="1"/>
+	<viewer showonview="scroll" left="20" right="20" top="0" bottom="90" depth="1"/>
+	
+	<behavior name="fx1" fx="shadow" color="0x8f8f8f" size="30" alpha="100" cornerRadius="50" />
+	
+	<!-- Bottom Toolbar -->
+	<layout depth="2" left="0" right="0" bottom="0" height="80" backgroundColor="0x2c2c2c" alignment="right,middle" backgroundsymbol="canvasLib#390,150,10,115"  orientation="horizontal">
+	
+		<element autoresize="false" maintainaspectratio="false" symbol="canvasLib#71,151,270,70" url="http://ukhealthcare.uky.edu/" />
+		
+		<spacer size="100"/>
+		
+		<button action="book" upstate="canvasLib#0,0,70,70" disabledState="canvasLib#0,0,70,70" overState="canvasLib#0,75,70,70">
+			<![CDATA[Facing]]>
+		</button>
+		
+		<button action="slide" upstate="canvasLib#71,0,70,70" disabledState="canvasLib#71,0,70,70" overState="canvasLib#71,75,70,70">
+			<![CDATA[Single]]>
+		</button>
+		
+		<button action="thumbnails" upstate="canvasLib#141,0,70,70" disabledState="canvasLib#141,0,70,70" overState="canvasLib#141,75,70,70">
+			<![CDATA[Thumbnails]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="canvasLib#365,150,10,55"/>
+		
+		<button action="slide" upstate="canvasLib#211,0,70,70" disabledState="canvasLib#211,0,70,70" overState="canvasLib#211,75,70,70">
+			<![CDATA[Fit Page]]>
+		</button>
+		
+		<button action="scroll" upstate="canvasLib#281,0,70,70" disabledState="canvasLib#281,0,70,70" overState="canvasLib#281,75,70,70">
+			<![CDATA[Fit Width]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="canvasLib#365,150,10,55"/>
+		
+		<button action="zoomin" upstate="canvasLib#351,0,70,70" disabledState="canvasLib#351,0,70,70" overState="canvasLib#351,75,70,70">
+			<![CDATA[Zoom In]]>
+		</button>
+		
+		<button action="zoomout" upstate="canvasLib#421,0,70,70" disabledState="canvasLib#421,0,70,70" overState="canvasLib#421,75,70,70">
+			<![CDATA[Zoom Out]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="canvasLib#365,150,10,55"/>
+		
+		<button action="previouspage" upstate="canvasLib#491,0,70,70" disabledState="canvasLib#491,0,70,70" overState="canvasLib#491,75,70,70">
+			<![CDATA[Previous Page]]>
+		</button>
+		
+		<pagenumber color="0xa7a7a7" editable="true" showTotal="false" size="13" align="center" />
+		
+		<button action="nextpage" upstate="canvasLib#631,0,70,70" disabledState="canvasLib#631,0,70,70" overState="canvasLib#631,75,70,70" >
+			<![CDATA[Next Page]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="canvasLib#365,150,10,55"/>
+		
+		<button action="share" upstate="canvasLib#701,0,70,70" disabledState="canvasLib#701,0,70,70" overState="canvasLib#701,75,70,70">
+			<![CDATA[Share]]>
+		</button>
+		
+		<button action="print" upstate="canvasLib#771,0,70,70" disabledState="canvasLib#771,0,70,70" overState="canvasLib#771,75,70,70">
+			<![CDATA[Print]]>
+		</button>
+		
+		<button upstate="canvasLib#841,0,70,70" disabledState="canvasLib#841,0,70,70" overState="canvasLib#841,75,70,70" >
+			<![CDATA[Help]]>
+		</button>
+	</layout>
+</root>

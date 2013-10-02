@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<root xmlns="http://skin.calameo.com/2.0" backgroundColor="0x454545">
+	
+	<!-- Media -->
+    <media name="rdiLib" source="rdi_canvas.png"/>
+	
+	<!-- Viewer -->
+	<viewer showonview="book,slide,thumbnails,scroll" left="50" right="50" top="20" bottom="110" depth="1"/>
+	<viewer showonview="scroll" left="20" right="20" top="0" bottom="100" depth="1"/>
+	
+	<behavior name="fx1" fx="shadow" color="0x8f8f8f" size="30" alpha="100" cornerRadius="50" />
+	
+	<!-- Bottom Toolbar -->
+	<layout depth="2" left="0" right="0" bottom="0" height="90" backgroundColor="0x2c2c2c" alignment="right,middle"  orientation="horizontal">
+	
+		<element autoresize="false" maintainaspectratio="false" symbol="rdiLib#71,151,270,70" url="http://ukhealthcare.uky.edu/" />
+		
+		<spacer size="100"/>
+		
+		<button action="book" upstate="rdiLib#0,0,70,70" disabledState="rdiLib#0,0,70,70" overState="rdiLib#0,75,70,70">
+			<![CDATA[Facing]]>
+		</button>
+		
+		<button action="slide" upstate="rdiLib#71,0,70,70" disabledState="rdiLib#71,0,70,70" overState="rdiLib#71,75,70,70">
+			<![CDATA[Single]]>
+		</button>
+		
+		<button action="thumbnails" upstate="rdiLib#141,0,70,70" disabledState="rdiLib#141,0,70,70" overState="rdiLib#141,75,70,70">
+			<![CDATA[Thumbnails]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="rdiLib#365,150,10,65"/>
+		
+		<button action="slide" upstate="rdiLib#211,0,70,70" disabledState="rdiLib#211,0,70,70" overState="rdiLib#211,75,70,70">
+			<![CDATA[Fit Page]]>
+		</button>
+		
+		<button action="scroll" upstate="rdiLib#281,0,70,70" disabledState="rdiLib#281,0,70,70" overState="rdiLib#281,75,70,70">
+			<![CDATA[Fit Width]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="rdiLib#365,150,10,65"/>
+		
+		<button action="zoomin" upstate="rdiLib#351,0,70,70" disabledState="rdiLib#351,0,70,70" overState="rdiLib#351,75,70,70">
+			<![CDATA[Zoom In]]>
+		</button>
+		
+		<button action="zoomout" upstate="rdiLib#421,0,70,70" disabledState="rdiLib#421,0,70,70" overState="rdiLib#421,75,70,70">
+			<![CDATA[Zoom Out]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="rdiLib#365,150,10,65"/>
+		
+		<button action="previouspage" upstate="rdiLib#491,0,70,70" disabledState="rdiLib#491,0,70,70" overState="rdiLib#491,75,70,70">
+			<![CDATA[Previous Page]]>
+		</button>
+		
+		<pagenumber color="0xa7a7a7" editable="true" showTotal="false" size="13" align="center" />
+		
+		<button action="nextpage" upstate="rdiLib#631,0,70,70" disabledState="rdiLib#631,0,70,70" overState="rdiLib#631,75,70,70" >
+			<![CDATA[Next Page]]>
+		</button>
+		
+		<element autoresize="false" maintainaspectratio="false" symbol="rdiLib#365,150,10,65"/>
+		
+		<button action="share" upstate="rdiLib#701,0,70,70" disabledState="rdiLib#701,0,70,70" overState="rdiLib#701,75,70,70">
+			<![CDATA[Share]]>
+		</button>
+		
+		<button action="print" upstate="rdiLib#771,0,70,70" disabledState="rdiLib#771,0,70,70" overState="rdiLib#771,75,70,70">
+			<![CDATA[Print]]>
+		</button>
+		
+		<button upstate="rdiLib#841,0,70,70" disabledState="rdiLib#841,0,70,70" overState="rdiLib#841,75,70,70" >
+			<![CDATA[Help]]>
+		</button>
+	</layout>
+</root>
